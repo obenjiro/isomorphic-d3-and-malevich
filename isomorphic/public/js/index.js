@@ -12,13 +12,12 @@ d3.restoreDatum = function(container) {
 }
 
 // client side context restore
-setTimeout(function(){
-  d3.restoreDatum();
-  d3.select('.container').selectAll('div')
-    .on('click',function(d){
-      console.log(d);
-    });
-}, 3000)
+d3.restoreDatum();
+d3.select('.container').selectAll('div')
+  .on('click',function(d){
+    console.log(d);
+  });
+
 
 // client side actions
 function update(data) {

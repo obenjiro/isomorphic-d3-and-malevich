@@ -46,7 +46,7 @@ d3.json("treemapclient/data.json", function(data) {
       .attr("dy", ".35em")
       .attr("text-anchor", "middle")
       .text(function(d) { return d.name; })
-      .style("opacity", function(d) { d.w = this.getComputedTextLength(); return d.dx > d.w ? 1 : 0; });
+      .style("opacity", function(d) { d.w = d.name.length * 6; return d.dx > d.w ? 1 : 0; });
 
   d3.select(window).on("click", function() { zoom(root); });
 
