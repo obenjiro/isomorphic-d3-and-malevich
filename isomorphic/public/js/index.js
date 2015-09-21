@@ -1,4 +1,3 @@
-// client side context restore
 d3.restoreDatum = function(container) {
   container = container || document.body;
   var walker = document.createTreeWalker(container, NodeFilter.SHOW_ELEMENT, null, false);
@@ -11,11 +10,15 @@ d3.restoreDatum = function(container) {
     }
   }
 }
-d3.restoreDatum();
-d3.select('.container').selectAll('div')
-  .on('click',function(d){
-    console.log(d);
-  });
+
+// client side context restore
+setTimeout(function(){
+  d3.restoreDatum();
+  d3.select('.container').selectAll('div')
+    .on('click',function(d){
+      console.log(d);
+    });
+}, 3000)
 
 // client side actions
 function update(data) {
