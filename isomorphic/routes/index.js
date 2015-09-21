@@ -28,10 +28,7 @@ function update(data) {
   var a = d3.select('.container').selectAll('div');
   var ar = a.data(data, function(d) { return d; });
 
-  ar.style({color: 'blue'})
-    .on('click',function(d){
-        console.log(d);
-    });
+  ar.style({color: 'blue'});
 
   ar.enter()
     .append('div')
