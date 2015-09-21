@@ -1,0 +1,2419 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ObjectExpression",
+        "properties": [
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Add",
+              "raw": "'Add'",
+              "range": [
+                21,
+                26
+              ],
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 4
+                },
+                "end": {
+                  "line": 2,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Add",
+              "raw": "'Add'",
+              "range": [
+                28,
+                33
+              ],
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 11
+                },
+                "end": {
+                  "line": 2,
+                  "column": 16
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              21,
+              33
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 4
+              },
+              "end": {
+                "line": 2,
+                "column": 16
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Remove",
+              "raw": "'Remove'",
+              "range": [
+                39,
+                47
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 12
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Remove",
+              "raw": "'Remove'",
+              "range": [
+                49,
+                57
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 14
+                },
+                "end": {
+                  "line": 3,
+                  "column": 22
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              39,
+              57
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 22
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Realtime exchange rates",
+              "raw": "'Realtime exchange rates'",
+              "range": [
+                63,
+                88
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 4,
+                  "column": 29
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Realtime exchange rates",
+              "raw": "'Realtime exchange rates'",
+              "range": [
+                90,
+                115
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 31
+                },
+                "end": {
+                  "line": 4,
+                  "column": 56
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              63,
+              115
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 56
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Settings",
+              "raw": "'Settings'",
+              "range": [
+                121,
+                131
+              ],
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 14
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Settings",
+              "raw": "'Settings'",
+              "range": [
+                133,
+                143
+              ],
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 16
+                },
+                "end": {
+                  "line": 5,
+                  "column": 26
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              121,
+              143
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 26
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Symbols",
+              "raw": "'Symbols'",
+              "range": [
+                149,
+                158
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Symbols",
+              "raw": "'Symbols'",
+              "range": [
+                160,
+                169
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 15
+                },
+                "end": {
+                  "line": 6,
+                  "column": 24
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              149,
+              169
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 24
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Rates",
+              "raw": "'Rates'",
+              "range": [
+                175,
+                182
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 4
+                },
+                "end": {
+                  "line": 7,
+                  "column": 11
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Rates",
+              "raw": "'Rates'",
+              "range": [
+                184,
+                191
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 13
+                },
+                "end": {
+                  "line": 7,
+                  "column": 20
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              175,
+              191
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 4
+              },
+              "end": {
+                "line": 7,
+                "column": 20
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "Last Update From Server: ",
+              "raw": "'Last Update From Server: '",
+              "range": [
+                197,
+                224
+              ],
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 4
+                },
+                "end": {
+                  "line": 8,
+                  "column": 31
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Last Update From Server: ",
+              "raw": "'Last Update From Server: '",
+              "range": [
+                226,
+                253
+              ],
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 33
+                },
+                "end": {
+                  "line": 8,
+                  "column": 60
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              197,
+              253
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 4
+              },
+              "end": {
+                "line": 8,
+                "column": 60
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "USD",
+              "raw": "'USD'",
+              "range": [
+                259,
+                264
+              ],
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 4
+                },
+                "end": {
+                  "line": 9,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "US dollar",
+              "raw": "'US dollar'",
+              "range": [
+                266,
+                277
+              ],
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 11
+                },
+                "end": {
+                  "line": 9,
+                  "column": 22
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              259,
+              277
+            ],
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 4
+              },
+              "end": {
+                "line": 9,
+                "column": 22
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "EUR",
+              "raw": "'EUR'",
+              "range": [
+                283,
+                288
+              ],
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 4
+                },
+                "end": {
+                  "line": 10,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Euro",
+              "raw": "'Euro'",
+              "range": [
+                290,
+                296
+              ],
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 11
+                },
+                "end": {
+                  "line": 10,
+                  "column": 17
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              283,
+              296
+            ],
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 4
+              },
+              "end": {
+                "line": 10,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "JPY",
+              "raw": "'JPY'",
+              "range": [
+                302,
+                307
+              ],
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 4
+                },
+                "end": {
+                  "line": 11,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Japanese yen",
+              "raw": "'Japanese yen'",
+              "range": [
+                309,
+                323
+              ],
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 11
+                },
+                "end": {
+                  "line": 11,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              302,
+              323
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 4
+              },
+              "end": {
+                "line": 11,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "BGN",
+              "raw": "'BGN'",
+              "range": [
+                329,
+                334
+              ],
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 4
+                },
+                "end": {
+                  "line": 12,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Bulgarian lev",
+              "raw": "'Bulgarian lev'",
+              "range": [
+                336,
+                351
+              ],
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 11
+                },
+                "end": {
+                  "line": 12,
+                  "column": 26
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              329,
+              351
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 4
+              },
+              "end": {
+                "line": 12,
+                "column": 26
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "CZK",
+              "raw": "'CZK'",
+              "range": [
+                357,
+                362
+              ],
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 4
+                },
+                "end": {
+                  "line": 13,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Czech koruna",
+              "raw": "'Czech koruna'",
+              "range": [
+                364,
+                378
+              ],
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 11
+                },
+                "end": {
+                  "line": 13,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              357,
+              378
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 4
+              },
+              "end": {
+                "line": 13,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "DKK",
+              "raw": "'DKK'",
+              "range": [
+                384,
+                389
+              ],
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 4
+                },
+                "end": {
+                  "line": 14,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Danish krone",
+              "raw": "'Danish krone'",
+              "range": [
+                391,
+                405
+              ],
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 11
+                },
+                "end": {
+                  "line": 14,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              384,
+              405
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 4
+              },
+              "end": {
+                "line": 14,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "GBP",
+              "raw": "'GBP'",
+              "range": [
+                411,
+                416
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 4
+                },
+                "end": {
+                  "line": 15,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Pound sterling",
+              "raw": "'Pound sterling'",
+              "range": [
+                418,
+                434
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 11
+                },
+                "end": {
+                  "line": 15,
+                  "column": 27
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              411,
+              434
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 4
+              },
+              "end": {
+                "line": 15,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "HUF",
+              "raw": "'HUF'",
+              "range": [
+                440,
+                445
+              ],
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 4
+                },
+                "end": {
+                  "line": 16,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Hungarian forint",
+              "raw": "'Hungarian forint'",
+              "range": [
+                447,
+                465
+              ],
+              "loc": {
+                "start": {
+                  "line": 16,
+                  "column": 11
+                },
+                "end": {
+                  "line": 16,
+                  "column": 29
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              440,
+              465
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 4
+              },
+              "end": {
+                "line": 16,
+                "column": 29
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "PLN",
+              "raw": "'PLN'",
+              "range": [
+                471,
+                476
+              ],
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 4
+                },
+                "end": {
+                  "line": 17,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Polish zloty",
+              "raw": "'Polish zloty'",
+              "range": [
+                478,
+                492
+              ],
+              "loc": {
+                "start": {
+                  "line": 17,
+                  "column": 11
+                },
+                "end": {
+                  "line": 17,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              471,
+              492
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 4
+              },
+              "end": {
+                "line": 17,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "RON",
+              "raw": "'RON'",
+              "range": [
+                498,
+                503
+              ],
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 4
+                },
+                "end": {
+                  "line": 18,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Romanian leu",
+              "raw": "'Romanian leu'",
+              "range": [
+                505,
+                519
+              ],
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 11
+                },
+                "end": {
+                  "line": 18,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              498,
+              519
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 4
+              },
+              "end": {
+                "line": 18,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "SEK",
+              "raw": "'SEK'",
+              "range": [
+                525,
+                530
+              ],
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 4
+                },
+                "end": {
+                  "line": 19,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Swedish krona",
+              "raw": "'Swedish krona'",
+              "range": [
+                532,
+                547
+              ],
+              "loc": {
+                "start": {
+                  "line": 19,
+                  "column": 11
+                },
+                "end": {
+                  "line": 19,
+                  "column": 26
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              525,
+              547
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 4
+              },
+              "end": {
+                "line": 19,
+                "column": 26
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "CHF",
+              "raw": "'CHF'",
+              "range": [
+                553,
+                558
+              ],
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 4
+                },
+                "end": {
+                  "line": 20,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Swiss franc",
+              "raw": "'Swiss franc'",
+              "range": [
+                560,
+                573
+              ],
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 11
+                },
+                "end": {
+                  "line": 20,
+                  "column": 24
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              553,
+              573
+            ],
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 4
+              },
+              "end": {
+                "line": 20,
+                "column": 24
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "NOK",
+              "raw": "'NOK'",
+              "range": [
+                579,
+                584
+              ],
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 4
+                },
+                "end": {
+                  "line": 21,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Norwegian krone",
+              "raw": "'Norwegian krone'",
+              "range": [
+                586,
+                603
+              ],
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 11
+                },
+                "end": {
+                  "line": 21,
+                  "column": 28
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              579,
+              603
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 4
+              },
+              "end": {
+                "line": 21,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "HRK",
+              "raw": "'HRK'",
+              "range": [
+                609,
+                614
+              ],
+              "loc": {
+                "start": {
+                  "line": 22,
+                  "column": 4
+                },
+                "end": {
+                  "line": 22,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Croatian kuna",
+              "raw": "'Croatian kuna'",
+              "range": [
+                616,
+                631
+              ],
+              "loc": {
+                "start": {
+                  "line": 22,
+                  "column": 11
+                },
+                "end": {
+                  "line": 22,
+                  "column": 26
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              609,
+              631
+            ],
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 4
+              },
+              "end": {
+                "line": 22,
+                "column": 26
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "RUB",
+              "raw": "'RUB'",
+              "range": [
+                637,
+                642
+              ],
+              "loc": {
+                "start": {
+                  "line": 23,
+                  "column": 4
+                },
+                "end": {
+                  "line": 23,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Russian rouble",
+              "raw": "'Russian rouble'",
+              "range": [
+                644,
+                660
+              ],
+              "loc": {
+                "start": {
+                  "line": 23,
+                  "column": 11
+                },
+                "end": {
+                  "line": 23,
+                  "column": 27
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              637,
+              660
+            ],
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 4
+              },
+              "end": {
+                "line": 23,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "TRY",
+              "raw": "'TRY'",
+              "range": [
+                666,
+                671
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 4
+                },
+                "end": {
+                  "line": 24,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Turkish lira",
+              "raw": "'Turkish lira'",
+              "range": [
+                673,
+                687
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 11
+                },
+                "end": {
+                  "line": 24,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              666,
+              687
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 4
+              },
+              "end": {
+                "line": 24,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "AUD",
+              "raw": "'AUD'",
+              "range": [
+                693,
+                698
+              ],
+              "loc": {
+                "start": {
+                  "line": 25,
+                  "column": 4
+                },
+                "end": {
+                  "line": 25,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Australian dollar",
+              "raw": "'Australian dollar'",
+              "range": [
+                700,
+                719
+              ],
+              "loc": {
+                "start": {
+                  "line": 25,
+                  "column": 11
+                },
+                "end": {
+                  "line": 25,
+                  "column": 30
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              693,
+              719
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 4
+              },
+              "end": {
+                "line": 25,
+                "column": 30
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "BRL",
+              "raw": "'BRL'",
+              "range": [
+                725,
+                730
+              ],
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 4
+                },
+                "end": {
+                  "line": 26,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Brazilian real",
+              "raw": "'Brazilian real'",
+              "range": [
+                732,
+                748
+              ],
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 11
+                },
+                "end": {
+                  "line": 26,
+                  "column": 27
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              725,
+              748
+            ],
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 4
+              },
+              "end": {
+                "line": 26,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "CAD",
+              "raw": "'CAD'",
+              "range": [
+                754,
+                759
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 4
+                },
+                "end": {
+                  "line": 27,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Canadian dollar",
+              "raw": "'Canadian dollar'",
+              "range": [
+                761,
+                778
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 11
+                },
+                "end": {
+                  "line": 27,
+                  "column": 28
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              754,
+              778
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 4
+              },
+              "end": {
+                "line": 27,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "CNY",
+              "raw": "'CNY'",
+              "range": [
+                784,
+                789
+              ],
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 4
+                },
+                "end": {
+                  "line": 28,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Chinese yuan renminbi",
+              "raw": "'Chinese yuan renminbi'",
+              "range": [
+                791,
+                814
+              ],
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 11
+                },
+                "end": {
+                  "line": 28,
+                  "column": 34
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              784,
+              814
+            ],
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 4
+              },
+              "end": {
+                "line": 28,
+                "column": 34
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "HKD",
+              "raw": "'HKD'",
+              "range": [
+                820,
+                825
+              ],
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 4
+                },
+                "end": {
+                  "line": 29,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Hong Kong dollar",
+              "raw": "'Hong Kong dollar'",
+              "range": [
+                827,
+                845
+              ],
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 11
+                },
+                "end": {
+                  "line": 29,
+                  "column": 29
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              820,
+              845
+            ],
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 4
+              },
+              "end": {
+                "line": 29,
+                "column": 29
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "IDR",
+              "raw": "'IDR'",
+              "range": [
+                851,
+                856
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 4
+                },
+                "end": {
+                  "line": 30,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Indonesian rupiah",
+              "raw": "'Indonesian rupiah'",
+              "range": [
+                858,
+                877
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 11
+                },
+                "end": {
+                  "line": 30,
+                  "column": 30
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              851,
+              877
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 4
+              },
+              "end": {
+                "line": 30,
+                "column": 30
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "ILS",
+              "raw": "'ILS'",
+              "range": [
+                883,
+                888
+              ],
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 4
+                },
+                "end": {
+                  "line": 31,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Israeli shekel",
+              "raw": "'Israeli shekel'",
+              "range": [
+                890,
+                906
+              ],
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 11
+                },
+                "end": {
+                  "line": 31,
+                  "column": 27
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              883,
+              906
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 4
+              },
+              "end": {
+                "line": 31,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "INR",
+              "raw": "'INR'",
+              "range": [
+                912,
+                917
+              ],
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 4
+                },
+                "end": {
+                  "line": 32,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Indian rupee",
+              "raw": "'Indian rupee'",
+              "range": [
+                919,
+                933
+              ],
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 11
+                },
+                "end": {
+                  "line": 32,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              912,
+              933
+            ],
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 4
+              },
+              "end": {
+                "line": 32,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "KRW",
+              "raw": "'KRW'",
+              "range": [
+                939,
+                944
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 4
+                },
+                "end": {
+                  "line": 33,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "South Korean won",
+              "raw": "'South Korean won'",
+              "range": [
+                946,
+                964
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 11
+                },
+                "end": {
+                  "line": 33,
+                  "column": 29
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              939,
+              964
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 4
+              },
+              "end": {
+                "line": 33,
+                "column": 29
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "MXN",
+              "raw": "'MXN'",
+              "range": [
+                970,
+                975
+              ],
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 4
+                },
+                "end": {
+                  "line": 34,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Mexican peso",
+              "raw": "'Mexican peso'",
+              "range": [
+                977,
+                991
+              ],
+              "loc": {
+                "start": {
+                  "line": 34,
+                  "column": 11
+                },
+                "end": {
+                  "line": 34,
+                  "column": 25
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              970,
+              991
+            ],
+            "loc": {
+              "start": {
+                "line": 34,
+                "column": 4
+              },
+              "end": {
+                "line": 34,
+                "column": 25
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "MYR",
+              "raw": "'MYR'",
+              "range": [
+                997,
+                1002
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 4
+                },
+                "end": {
+                  "line": 35,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Malaysian ringgit",
+              "raw": "'Malaysian ringgit'",
+              "range": [
+                1004,
+                1023
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 11
+                },
+                "end": {
+                  "line": 35,
+                  "column": 30
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              997,
+              1023
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 4
+              },
+              "end": {
+                "line": 35,
+                "column": 30
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "NZD",
+              "raw": "'NZD'",
+              "range": [
+                1029,
+                1034
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 4
+                },
+                "end": {
+                  "line": 36,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "New Zealand dollar",
+              "raw": "'New Zealand dollar'",
+              "range": [
+                1036,
+                1056
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 11
+                },
+                "end": {
+                  "line": 36,
+                  "column": 31
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              1029,
+              1056
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 4
+              },
+              "end": {
+                "line": 36,
+                "column": 31
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "PHP",
+              "raw": "'PHP'",
+              "range": [
+                1062,
+                1067
+              ],
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 4
+                },
+                "end": {
+                  "line": 37,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Philippine peso",
+              "raw": "'Philippine peso'",
+              "range": [
+                1069,
+                1086
+              ],
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 11
+                },
+                "end": {
+                  "line": 37,
+                  "column": 28
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              1062,
+              1086
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 4
+              },
+              "end": {
+                "line": 37,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "SGD",
+              "raw": "'SGD'",
+              "range": [
+                1092,
+                1097
+              ],
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 4
+                },
+                "end": {
+                  "line": 38,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Singapore dollar",
+              "raw": "'Singapore dollar'",
+              "range": [
+                1099,
+                1117
+              ],
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 11
+                },
+                "end": {
+                  "line": 38,
+                  "column": 29
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              1092,
+              1117
+            ],
+            "loc": {
+              "start": {
+                "line": 38,
+                "column": 4
+              },
+              "end": {
+                "line": 38,
+                "column": 29
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "THB",
+              "raw": "'THB'",
+              "range": [
+                1123,
+                1128
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 4
+                },
+                "end": {
+                  "line": 39,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Thai baht",
+              "raw": "'Thai baht'",
+              "range": [
+                1130,
+                1141
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 11
+                },
+                "end": {
+                  "line": 39,
+                  "column": 22
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              1123,
+              1141
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 4
+              },
+              "end": {
+                "line": 39,
+                "column": 22
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "ZAR",
+              "raw": "'ZAR'",
+              "range": [
+                1147,
+                1152
+              ],
+              "loc": {
+                "start": {
+                  "line": 40,
+                  "column": 4
+                },
+                "end": {
+                  "line": 40,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "South African rand",
+              "raw": "'South African rand'",
+              "range": [
+                1154,
+                1174
+              ],
+              "loc": {
+                "start": {
+                  "line": 40,
+                  "column": 11
+                },
+                "end": {
+                  "line": 40,
+                  "column": 31
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              1147,
+              1174
+            ],
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 4
+              },
+              "end": {
+                "line": 40,
+                "column": 31
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Literal",
+              "value": "ISK",
+              "raw": "'ISK'",
+              "range": [
+                1180,
+                1185
+              ],
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 4
+                },
+                "end": {
+                  "line": 41,
+                  "column": 9
+                }
+              }
+            },
+            "value": {
+              "type": "Literal",
+              "value": "Icelandic krona",
+              "raw": "'Icelandic krona'",
+              "range": [
+                1187,
+                1204
+              ],
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 11
+                },
+                "end": {
+                  "line": 41,
+                  "column": 28
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "range": [
+              1180,
+              1204
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 4
+              },
+              "end": {
+                "line": 41,
+                "column": 28
+              }
+            }
+          }
+        ],
+        "range": [
+          15,
+          1206
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 15
+          },
+          "end": {
+            "line": 42,
+            "column": 1
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        0,
+        1207
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1207
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 42,
+      "column": 2
+    }
+  },
+  "comments": []
+}

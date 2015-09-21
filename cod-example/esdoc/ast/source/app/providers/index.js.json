@@ -1,0 +1,1511 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ProvidersStore",
+            "range": [
+              7,
+              21
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 21
+              }
+            }
+          },
+          "range": [
+            7,
+            21
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 21
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./store.js",
+        "raw": "'./store.js'",
+        "range": [
+          27,
+          39
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 27
+          },
+          "end": {
+            "line": 1,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        0,
+        40
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 0
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ProvidersViewModel",
+            "range": [
+              47,
+              65
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 7
+              },
+              "end": {
+                "line": 2,
+                "column": 25
+              }
+            }
+          },
+          "range": [
+            47,
+            65
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "end": {
+              "line": 2,
+              "column": 25
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./viewmodel.js",
+        "raw": "'./viewmodel.js'",
+        "range": [
+          71,
+          87
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 31
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        },
+        "trailingComments": [
+          {
+            "type": "Line",
+            "value": "import ProvidersView from './view.js'",
+            "range": [
+              88,
+              127
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 39
+              }
+            }
+          }
+        ]
+      },
+      "range": [
+        40,
+        129
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 0
+        }
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ClassDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "Providers",
+          "range": [
+            150,
+            159
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 21
+            },
+            "end": {
+              "line": 5,
+              "column": 30
+            }
+          }
+        },
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "key": {
+                "type": "Identifier",
+                "name": "init",
+                "range": [
+                  166,
+                  170
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 8
+                  }
+                }
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "id": null,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              183,
+                              187
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 12
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "store",
+                            "range": [
+                              188,
+                              193
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 13
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 18
+                              }
+                            }
+                          },
+                          "range": [
+                            183,
+                            193
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 18
+                            }
+                          }
+                        },
+                        "right": {
+                          "type": "NewExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "ProvidersStore",
+                            "range": [
+                              200,
+                              214
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 25
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 39
+                              }
+                            }
+                          },
+                          "arguments": [],
+                          "range": [
+                            196,
+                            216
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 21
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 41
+                            }
+                          }
+                        },
+                        "range": [
+                          183,
+                          216
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 41
+                          }
+                        }
+                      },
+                      "range": [
+                        183,
+                        217
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 42
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "ThisExpression",
+                            "range": [
+                              226,
+                              230
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 8,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 8,
+                                "column": 12
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "viewmodel",
+                            "range": [
+                              231,
+                              240
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 8,
+                                "column": 13
+                              },
+                              "end": {
+                                "line": 8,
+                                "column": 22
+                              }
+                            }
+                          },
+                          "range": [
+                            226,
+                            240
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 8,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 22
+                            }
+                          }
+                        },
+                        "right": {
+                          "type": "NewExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "ProvidersViewModel",
+                            "range": [
+                              247,
+                              265
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 8,
+                                "column": 29
+                              },
+                              "end": {
+                                "line": 8,
+                                "column": 47
+                              }
+                            }
+                          },
+                          "arguments": [],
+                          "range": [
+                            243,
+                            267
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 8,
+                              "column": 25
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 49
+                            }
+                          }
+                        },
+                        "range": [
+                          226,
+                          267
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 8,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 8,
+                            "column": 49
+                          }
+                        }
+                      },
+                      "range": [
+                        226,
+                        268
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 50
+                        }
+                      },
+                      "trailingComments": [
+                        {
+                          "type": "Line",
+                          "value": "this.view = new ProvidersView();",
+                          "range": [
+                            277,
+                            311
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 42
+                            }
+                          }
+                        },
+                        {
+                          "type": "Line",
+                          "value": "this.view.init();",
+                          "range": [
+                            321,
+                            340
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 27
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "ThisExpression",
+                              "range": [
+                                349,
+                                353
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 8
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 12
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "viewmodel",
+                              "range": [
+                                354,
+                                363
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 13
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 22
+                                }
+                              }
+                            },
+                            "range": [
+                              349,
+                              363
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 12,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 12,
+                                "column": 22
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "init",
+                            "range": [
+                              364,
+                              368
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 12,
+                                "column": 23
+                              },
+                              "end": {
+                                "line": 12,
+                                "column": 27
+                              }
+                            }
+                          },
+                          "range": [
+                            349,
+                            368
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 12,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 12,
+                              "column": 27
+                            }
+                          }
+                        },
+                        "arguments": [],
+                        "range": [
+                          349,
+                          370
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 12,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 12,
+                            "column": 29
+                          }
+                        }
+                      },
+                      "range": [
+                        349,
+                        371
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 12,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 30
+                        }
+                      },
+                      "leadingComments": [
+                        {
+                          "type": "Line",
+                          "value": "this.view = new ProvidersView();",
+                          "range": [
+                            277,
+                            311
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 42
+                            }
+                          }
+                        },
+                        {
+                          "type": "Line",
+                          "value": "this.view.init();",
+                          "range": [
+                            321,
+                            340
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 27
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "ThisExpression",
+                              "range": [
+                                380,
+                                384
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 8
+                                },
+                                "end": {
+                                  "line": 13,
+                                  "column": 12
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "store",
+                              "range": [
+                                385,
+                                390
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 13
+                                },
+                                "end": {
+                                  "line": 13,
+                                  "column": 18
+                                }
+                              }
+                            },
+                            "range": [
+                              380,
+                              390
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 18
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "init",
+                            "range": [
+                              391,
+                              395
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 19
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 23
+                              }
+                            }
+                          },
+                          "range": [
+                            380,
+                            395
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 13,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 13,
+                              "column": 23
+                            }
+                          }
+                        },
+                        "arguments": [],
+                        "range": [
+                          380,
+                          397
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 13,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 13,
+                            "column": 25
+                          }
+                        }
+                      },
+                      "range": [
+                        380,
+                        398
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 26
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "ThisExpression",
+                              "range": [
+                                408,
+                                412
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 8
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 12
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "store",
+                              "range": [
+                                413,
+                                418
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 13
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 18
+                                }
+                              }
+                            },
+                            "range": [
+                              408,
+                              418
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 15,
+                                "column": 18
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "subscribe",
+                            "range": [
+                              419,
+                              428
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 19
+                              },
+                              "end": {
+                                "line": 15,
+                                "column": 28
+                              }
+                            }
+                          },
+                          "range": [
+                            408,
+                            428
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 15,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 15,
+                              "column": 28
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "first load",
+                            "raw": "'first load'",
+                            "range": [
+                              429,
+                              441
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 29
+                              },
+                              "end": {
+                                "line": 15,
+                                "column": 41
+                              }
+                            }
+                          },
+                          {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "ThisExpression",
+                              "range": [
+                                443,
+                                447
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 43
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 47
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "store",
+                              "range": [
+                                448,
+                                453
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 48
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 53
+                                }
+                              }
+                            },
+                            "range": [
+                              443,
+                              453
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 43
+                              },
+                              "end": {
+                                "line": 15,
+                                "column": 53
+                              }
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "value": "onUpdate",
+                            "raw": "'onUpdate'",
+                            "range": [
+                              455,
+                              465
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 55
+                              },
+                              "end": {
+                                "line": 15,
+                                "column": 65
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          408,
+                          466
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 15,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 15,
+                            "column": 66
+                          }
+                        }
+                      },
+                      "range": [
+                        408,
+                        467
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 15,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 15,
+                          "column": 67
+                        }
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "expression": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "ThisExpression",
+                              "range": [
+                                476,
+                                480
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 8
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 12
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "store",
+                              "range": [
+                                481,
+                                486
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 13
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 18
+                                }
+                              }
+                            },
+                            "range": [
+                              476,
+                              486
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 16,
+                                "column": 8
+                              },
+                              "end": {
+                                "line": 16,
+                                "column": 18
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "subscribe",
+                            "range": [
+                              487,
+                              496
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 16,
+                                "column": 19
+                              },
+                              "end": {
+                                "line": 16,
+                                "column": 28
+                              }
+                            }
+                          },
+                          "range": [
+                            476,
+                            496
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 16,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 16,
+                              "column": 28
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "update",
+                            "raw": "'update'",
+                            "range": [
+                              497,
+                              505
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 16,
+                                "column": 29
+                              },
+                              "end": {
+                                "line": 16,
+                                "column": 37
+                              }
+                            }
+                          },
+                          {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "ThisExpression",
+                              "range": [
+                                507,
+                                511
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 39
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 43
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "viewmodel",
+                              "range": [
+                                512,
+                                521
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 44
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 53
+                                }
+                              }
+                            },
+                            "range": [
+                              507,
+                              521
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 16,
+                                "column": 39
+                              },
+                              "end": {
+                                "line": 16,
+                                "column": 53
+                              }
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "value": "onUpdate",
+                            "raw": "'onUpdate'",
+                            "range": [
+                              523,
+                              533
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 16,
+                                "column": 55
+                              },
+                              "end": {
+                                "line": 16,
+                                "column": 65
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          476,
+                          534
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 16,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 16,
+                            "column": 66
+                          }
+                        }
+                      },
+                      "range": [
+                        476,
+                        535
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 16,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 16,
+                          "column": 67
+                        }
+                      },
+                      "trailingComments": [
+                        {
+                          "type": "Line",
+                          "value": " providers have no view ( for now ) so we will deliberately comment it out",
+                          "range": [
+                            544,
+                            620
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 17,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 17,
+                              "column": 84
+                            }
+                          }
+                        },
+                        {
+                          "type": "Line",
+                          "value": "this.viewmodel.subscribe('update', this.view, 'onUpdate');",
+                          "range": [
+                            629,
+                            689
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 18,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 18,
+                              "column": 68
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "range": [
+                    173,
+                    695
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 19,
+                      "column": 5
+                    }
+                  }
+                },
+                "generator": false,
+                "expression": false,
+                "range": [
+                  170,
+                  695
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 5
+                  }
+                }
+              },
+              "kind": "method",
+              "computed": false,
+              "range": [
+                166,
+                695
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 19,
+                  "column": 5
+                }
+              },
+              "static": false
+            }
+          ],
+          "range": [
+            160,
+            697
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 31
+            },
+            "end": {
+              "line": 20,
+              "column": 1
+            }
+          }
+        },
+        "range": [
+          144,
+          697
+        ],
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 15
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Line",
+            "value": "import ProvidersView from './view.js'",
+            "range": [
+              88,
+              127
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 39
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        129,
+        697
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "import ProvidersView from './view.js'",
+          "range": [
+            88,
+            127
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    697
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 20,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": "import ProvidersView from './view.js'",
+      "range": [
+        88,
+        127
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "this.view = new ProvidersView();",
+      "range": [
+        277,
+        311
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 8
+        },
+        "end": {
+          "line": 9,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "this.view.init();",
+      "range": [
+        321,
+        340
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " providers have no view ( for now ) so we will deliberately comment it out",
+      "range": [
+        544,
+        620
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 84
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "this.viewmodel.subscribe('update', this.view, 'onUpdate');",
+      "range": [
+        629,
+        689
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 8
+        },
+        "end": {
+          "line": 18,
+          "column": 68
+        }
+      }
+    }
+  ]
+}
