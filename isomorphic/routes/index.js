@@ -33,14 +33,12 @@ function update(data) {
   ar.enter()
     .append('div')
     .text(String)
-    .attr('data-val', JSON.stringify)
     .on('click',function(d){
         console.log(d);
     });
 
   ar.exit()
-    .style({color: 'red'})
-    .attr('data-val', null);
+    .style({color: 'red'});
 }
 
 /* GET home page. */
