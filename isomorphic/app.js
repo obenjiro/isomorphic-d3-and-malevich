@@ -9,6 +9,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var treemap = require('./routes/treemap');
+var treemapclient = require('./routes/treemap-client-only');
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/treemap', treemap);
+app.use('/treemapclient', treemapclient);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
