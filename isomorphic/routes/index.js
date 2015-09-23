@@ -47,7 +47,6 @@ router.get('/', function(req, res) {
 
     d3.select('.container').html('');
     update([1,2,3]);
-    //update([1]);
     d3.saveDatum();
 
     res.render('index', { html: d3.select('.container').html() });
