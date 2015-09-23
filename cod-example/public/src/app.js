@@ -1,18 +1,14 @@
 import './app.css'
 
-//import Main from './app/main/index.js'
-import Test from './app/test/index.js'
+import Main from './app/main/index.js'
 
 class App {
     init() {
-        //this.main = new Main();
-        this.test = new Test();
+        this.main = new Main();
 
-        //this.main.init();
-        this.test.init();
+        this.main.init();
 
-        //this.main.controller.fire('first load');
-        this.test.controller.fire('first load');
+        this.main.controller.fire('first load');
     }
 }
 
