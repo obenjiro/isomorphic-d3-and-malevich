@@ -5,7 +5,7 @@
     ],
     "destination":  "styleguide/",
 
-    "title": "RER Style Guide",
+    "title": "COD.js Style Guide",
     "homepage": "../../styleguide/homepage.md",
     "template": "styleguide/template",
 

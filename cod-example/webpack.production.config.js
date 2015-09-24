@@ -26,8 +26,8 @@ module.exports = {
             },
             {
                 test: /\.html$/,
-                loader: "file?name=[name].[ext]!html-minify",
-            },
+                loader: "file?name=[name].[ext]!html-minify"
+            }
         ]
     },
     postcss: [

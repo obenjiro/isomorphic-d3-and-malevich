@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/locale.js | Realtime Exchange Rates API Document</title>
+  <title data-ice="title">src/locale.js | COD.js example API Document</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -31,30 +31,16 @@
   <h2>Class</h2>
   <ul>
     
-  <li data-ice="classDoc"><span><a href="class/src/app/helpers/angularishview.js~AngularishView.html">AngularishView</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/button/index.js~Button.html">Button</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/footer/index.js~Footer.html">Footer</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/header/index.js~Header.html">Header</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/helpers/jsonview.js~JsonView.html">JsonView</a></span></li>
+  <li data-ice="classDoc"><span><a href="class/src/app/helpers/jsonview.js~JsonView.html">JsonView</a></span></li>
 <li data-ice="classDoc"><span><a href="class/src/app/main/index.js~Main.html">Main</a></span></li>
+<li data-ice="classDoc"><span><a href="class/src/app/main/controller.js~MainController.html">MainController</a></span></li>
+<li data-ice="classDoc"><span><a href="class/src/app/main/view-d3.js~MainD3View.html">MainD3View</a></span></li>
+<li data-ice="classDoc"><span><a href="class/src/app/main/store.js~MainStore.html">MainStore</a></span></li>
+<li data-ice="classDoc"><span><a href="class/src/app/main/view-json.js~MainView.html">MainView</a></span></li>
+<li data-ice="classDoc"><span><a href="class/src/app/main/viewmodel.js~MainViewModel.html">MainViewModel</a></span></li>
+<li data-ice="classDoc"><span><a href="class/src/app/helpers/noopview.js~NoopView.html">NoopView</a></span></li>
 <li data-ice="classDoc"><span><a href="class/src/app/helpers/observer.js~Observer.html">Observer</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/providers/index.js~Providers.html">Providers</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/providers/store.js~ProvidersStore.html">ProvidersStore</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/providers/view.js~ProvidersView.html">ProvidersView</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/providers/viewmodel.js~ProvidersViewModel.html">ProvidersViewModel</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/rates/index.js~Rates.html">Rates</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/rates/store.js~RatesStore.html">RatesStore</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/rates/view.js~RatesView.html">RatesView</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/rates/viewmodel.js~RatesViewModel.html">RatesViewModel</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/settings/index.js~Settings.html">Settings</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/settings/store.js~SettingsStore.html">SettingsStore</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/settings/view.js~SettingsView.html">SettingsView</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/settings/viewmodel.js~SettingsViewModel.html">SettingsViewModel</a></span></li>
 <li data-ice="classDoc"><span><a href="class/src/app/helpers/simplepromise.js~SimplePromise.html">SimplePromise</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/symbols/index.js~Symbols.html">Symbols</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/symbols/store.js~SymbolsStore.html">SymbolsStore</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/symbols/view.js~SymbolsView.html">SymbolsView</a></span></li>
-<li data-ice="classDoc"><span><a href="class/src/app/symbols/viewmodel.js~SymbolsViewModel.html">SymbolsViewModel</a></span></li>
 </ul>
 </div>
 
@@ -70,8 +56,7 @@
   <h2><a href="function/">Function</a></h2>
   <ul>
     
-  <li data-ice="functionDoc"><span><a href="function/index.html#static-function-angularish">angularish</a></span></li>
-<li data-ice="functionDoc"><span><a href="function/index.html#static-function-fetch">fetch</a></span></li>
+  <li data-ice="functionDoc"><span><a href="function/index.html#static-function-fetch">fetch</a></span></li>
 </ul>
 </div>
 
@@ -84,52 +69,14 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/locale.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export default {
-    &apos;Add&apos;: &apos;Add&apos;,
-    &apos;Remove&apos;: &apos;Remove&apos;,
-    &apos;Realtime exchange rates&apos;: &apos;Realtime exchange rates&apos;,
-    &apos;Settings&apos;: &apos;Settings&apos;,
-    &apos;Symbols&apos;: &apos;Symbols&apos;,
-    &apos;Rates&apos;: &apos;Rates&apos;,
-    &apos;Last Update From Server: &apos;: &apos;Last Update From Server: &apos;,
-    &apos;USD&apos;: &apos;US dollar&apos;,
-    &apos;EUR&apos;: &apos;Euro&apos;,
-    &apos;JPY&apos;: &apos;Japanese yen&apos;,
-    &apos;BGN&apos;: &apos;Bulgarian lev&apos;,
-    &apos;CZK&apos;: &apos;Czech koruna&apos;,
-    &apos;DKK&apos;: &apos;Danish krone&apos;,
-    &apos;GBP&apos;: &apos;Pound sterling&apos;,
-    &apos;HUF&apos;: &apos;Hungarian forint&apos;,
-    &apos;PLN&apos;: &apos;Polish zloty&apos;,
-    &apos;RON&apos;: &apos;Romanian leu&apos;,
-    &apos;SEK&apos;: &apos;Swedish krona&apos;,
-    &apos;CHF&apos;: &apos;Swiss franc&apos;,
-    &apos;NOK&apos;: &apos;Norwegian krone&apos;,
-    &apos;HRK&apos;: &apos;Croatian kuna&apos;,
-    &apos;RUB&apos;: &apos;Russian rouble&apos;,
-    &apos;TRY&apos;: &apos;Turkish lira&apos;,
-    &apos;AUD&apos;: &apos;Australian dollar&apos;,
-    &apos;BRL&apos;: &apos;Brazilian real&apos;,
-    &apos;CAD&apos;: &apos;Canadian dollar&apos;,
-    &apos;CNY&apos;: &apos;Chinese yuan renminbi&apos;,
-    &apos;HKD&apos;: &apos;Hong Kong dollar&apos;,
-    &apos;IDR&apos;: &apos;Indonesian rupiah&apos;,
-    &apos;ILS&apos;: &apos;Israeli shekel&apos;,
-    &apos;INR&apos;: &apos;Indian rupee&apos;,
-    &apos;KRW&apos;: &apos;South Korean won&apos;,
-    &apos;MXN&apos;: &apos;Mexican peso&apos;,
-    &apos;MYR&apos;: &apos;Malaysian ringgit&apos;,
-    &apos;NZD&apos;: &apos;New Zealand dollar&apos;,
-    &apos;PHP&apos;: &apos;Philippine peso&apos;,
-    &apos;SGD&apos;: &apos;Singapore dollar&apos;,
-    &apos;THB&apos;: &apos;Thai baht&apos;,
-    &apos;ZAR&apos;: &apos;South African rand&apos;,
-    &apos;ISK&apos;: &apos;Icelandic krona&apos;
+    &apos;App title&apos;: &apos;App title&apos;
 };
 </code></pre>
+
 </div>
 
 <footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.2.4)</span></a>
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.2.6)</span></a>
 </footer>
 
 <script src="script/search_index.js"></script>

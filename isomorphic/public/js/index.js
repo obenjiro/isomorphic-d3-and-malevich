@@ -11,7 +11,8 @@ d3.restoreDatum = function(container) {
   }
 }
 
-// client side context restore
+//client side context restore
+
 d3.restoreDatum();
 d3.select('.container').selectAll('div')
   .on('click',function(d){
@@ -19,10 +20,13 @@ d3.select('.container').selectAll('div')
   });
 
 
+
+
+
 // client side actions
-function update(data) {
+function act(scenario) {
   var a = d3.select('.container').selectAll('div');
-  var ar = a.data(data, function(d) { return d; });
+  var ar = a.data(scenario, function(d) { return d; });
 
   ar.style({color: 'blue'});
 
@@ -37,6 +41,6 @@ function update(data) {
     .style({color: 'red'});
 }
 
-setTimeout(function(){
-  update([2,3,4]);
-}, 5000);
+
+act([2,3,4]);
+

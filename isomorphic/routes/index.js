@@ -10,10 +10,9 @@ jsdom.env({
     src: [d3raw],
     done: function (err, window) {
         d3 = window.d3;
-        var document = window.document;
-        // client side context saving
+
         d3.saveDatum = function(container) {
-          container = container || document.body;
+          container = container || window.document.body;
           domTraversal(container, function(node){
             if (node.__data__) {
               var text = JSON.stringify(node.__data__);
@@ -24,9 +23,9 @@ jsdom.env({
     }
 });
 
-function update(data) {
+function act(scenario) {
   var a = d3.select('.container').selectAll('div');
-  var ar = a.data(data, function(d) { return d; });
+  var ar = a.data(scenario, function(d) { return d; });
 
   ar.style({color: 'blue'});
 
@@ -46,13 +45,29 @@ function update(data) {
 router.get('/', function(req, res) {
 
     d3.select('.container').html('');
-    update([1,2,3]);
+    act([1,2,3]);
     d3.saveDatum();
 
     res.render('index', { html: d3.select('.container').html() });
 });
 
 module.exports = router;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function domTraversal(root, enter, exit) {

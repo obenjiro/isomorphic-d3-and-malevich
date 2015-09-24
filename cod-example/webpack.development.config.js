@@ -27,6 +27,6 @@ module.exports = {
     plugins: [
         new webpack.DefinePlugin({
             __DEV__: true
-        }),
+        })
     ]
 };

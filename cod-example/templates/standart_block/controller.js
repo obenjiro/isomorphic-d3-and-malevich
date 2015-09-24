@@ -7,4 +7,7 @@ export default class {{name}}Controller extends Observer {
     onFirstLoad() {
         this.fire('update');
     }
+    onItemClick(id) {
+        this.fire('item selected', id);
+    }
 }

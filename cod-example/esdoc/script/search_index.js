@@ -1,164 +1,74 @@
 window.esdocSearchIndex = [
   [
-    "realtime-exchange-rates/src/app/helpers/angularishview.js~angularishview",
-    "class/src/app/helpers/angularishview.js~AngularishView.html",
-    "<span>AngularishView</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/angularishview.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/button/index.js~button",
-    "class/src/app/button/index.js~Button.html",
-    "<span>Button</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/button/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/helpers/fetch.js~fetchresponse",
+    "cod-example/src/app/helpers/fetch.js~fetchresponse",
     "class/src/app/helpers/fetch.js~FetchResponse.html",
-    "<span>FetchResponse</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/fetch.js</span>",
+    "<span>FetchResponse</span> <span class=\"search-result-import-path\">cod-example/src/app/helpers/fetch.js</span>",
     "class"
   ],
   [
-    "realtime-exchange-rates/src/app/footer/index.js~footer",
-    "class/src/app/footer/index.js~Footer.html",
-    "<span>Footer</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/footer/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/header/index.js~header",
-    "class/src/app/header/index.js~Header.html",
-    "<span>Header</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/header/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/helpers/jsonview.js~jsonview",
+    "cod-example/src/app/helpers/jsonview.js~jsonview",
     "class/src/app/helpers/jsonview.js~JsonView.html",
-    "<span>JsonView</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/jsonview.js</span>",
+    "<span>JsonView</span> <span class=\"search-result-import-path\">cod-example/src/app/helpers/jsonview.js</span>",
     "class"
   ],
   [
-    "realtime-exchange-rates/src/app/main/index.js~main",
+    "cod-example/src/app/main/index.js~main",
     "class/src/app/main/index.js~Main.html",
-    "<span>Main</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/main/index.js</span>",
+    "<span>Main</span> <span class=\"search-result-import-path\">cod-example/src/app/main/index.js</span>",
     "class"
   ],
   [
-    "realtime-exchange-rates/src/app/helpers/observer.js~observer",
+    "cod-example/src/app/main/controller.js~maincontroller",
+    "class/src/app/main/controller.js~MainController.html",
+    "<span>MainController</span> <span class=\"search-result-import-path\">cod-example/src/app/main/controller.js</span>",
+    "class"
+  ],
+  [
+    "cod-example/src/app/main/view-d3.js~maind3view",
+    "class/src/app/main/view-d3.js~MainD3View.html",
+    "<span>MainD3View</span> <span class=\"search-result-import-path\">cod-example/src/app/main/view-d3.js</span>",
+    "class"
+  ],
+  [
+    "cod-example/src/app/main/store.js~mainstore",
+    "class/src/app/main/store.js~MainStore.html",
+    "<span>MainStore</span> <span class=\"search-result-import-path\">cod-example/src/app/main/store.js</span>",
+    "class"
+  ],
+  [
+    "cod-example/src/app/main/view-json.js~mainview",
+    "class/src/app/main/view-json.js~MainView.html",
+    "<span>MainView</span> <span class=\"search-result-import-path\">cod-example/src/app/main/view-json.js</span>",
+    "class"
+  ],
+  [
+    "cod-example/src/app/main/viewmodel.js~mainviewmodel",
+    "class/src/app/main/viewmodel.js~MainViewModel.html",
+    "<span>MainViewModel</span> <span class=\"search-result-import-path\">cod-example/src/app/main/viewmodel.js</span>",
+    "class"
+  ],
+  [
+    "cod-example/src/app/helpers/noopview.js~noopview",
+    "class/src/app/helpers/noopview.js~NoopView.html",
+    "<span>NoopView</span> <span class=\"search-result-import-path\">cod-example/src/app/helpers/noopview.js</span>",
+    "class"
+  ],
+  [
+    "cod-example/src/app/helpers/observer.js~observer",
     "class/src/app/helpers/observer.js~Observer.html",
-    "<span>Observer</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/observer.js</span>",
+    "<span>Observer</span> <span class=\"search-result-import-path\">cod-example/src/app/helpers/observer.js</span>",
     "class"
   ],
   [
-    "realtime-exchange-rates/src/app/providers/index.js~providers",
-    "class/src/app/providers/index.js~Providers.html",
-    "<span>Providers</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/providers/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/providers/store.js~providersstore",
-    "class/src/app/providers/store.js~ProvidersStore.html",
-    "<span>ProvidersStore</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/providers/store.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/providers/view.js~providersview",
-    "class/src/app/providers/view.js~ProvidersView.html",
-    "<span>ProvidersView</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/providers/view.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/providers/viewmodel.js~providersviewmodel",
-    "class/src/app/providers/viewmodel.js~ProvidersViewModel.html",
-    "<span>ProvidersViewModel</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/providers/viewmodel.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/rates/index.js~rates",
-    "class/src/app/rates/index.js~Rates.html",
-    "<span>Rates</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/rates/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/rates/store.js~ratesstore",
-    "class/src/app/rates/store.js~RatesStore.html",
-    "<span>RatesStore</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/rates/store.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/rates/view.js~ratesview",
-    "class/src/app/rates/view.js~RatesView.html",
-    "<span>RatesView</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/rates/view.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/rates/viewmodel.js~ratesviewmodel",
-    "class/src/app/rates/viewmodel.js~RatesViewModel.html",
-    "<span>RatesViewModel</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/rates/viewmodel.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/settings/index.js~settings",
-    "class/src/app/settings/index.js~Settings.html",
-    "<span>Settings</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/settings/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/settings/store.js~settingsstore",
-    "class/src/app/settings/store.js~SettingsStore.html",
-    "<span>SettingsStore</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/settings/store.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/settings/view.js~settingsview",
-    "class/src/app/settings/view.js~SettingsView.html",
-    "<span>SettingsView</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/settings/view.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/settings/viewmodel.js~settingsviewmodel",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html",
-    "<span>SettingsViewModel</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/settings/viewmodel.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/helpers/simplepromise.js~simplepromise",
+    "cod-example/src/app/helpers/simplepromise.js~simplepromise",
     "class/src/app/helpers/simplepromise.js~SimplePromise.html",
-    "<span>SimplePromise</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/simplepromise.js</span>",
+    "<span>SimplePromise</span> <span class=\"search-result-import-path\">cod-example/src/app/helpers/simplepromise.js</span>",
     "class"
   ],
   [
-    "realtime-exchange-rates/src/app/symbols/index.js~symbols",
-    "class/src/app/symbols/index.js~Symbols.html",
-    "<span>Symbols</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/symbols/index.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/symbols/store.js~symbolsstore",
-    "class/src/app/symbols/store.js~SymbolsStore.html",
-    "<span>SymbolsStore</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/symbols/store.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/symbols/view.js~symbolsview",
-    "class/src/app/symbols/view.js~SymbolsView.html",
-    "<span>SymbolsView</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/symbols/view.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/symbols/viewmodel.js~symbolsviewmodel",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html",
-    "<span>SymbolsViewModel</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/symbols/viewmodel.js</span>",
-    "class"
-  ],
-  [
-    "realtime-exchange-rates/src/app/helpers/angularish.js~angularish",
-    "function/index.html#static-function-angularish",
-    "<span>angularish</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/angularish.js</span>",
-    "function"
-  ],
-  [
-    "realtime-exchange-rates/src/app/helpers/fetch.js~fetch",
+    "cod-example/src/app/helpers/fetch.js~fetch",
     "function/index.html#static-function-fetch",
-    "<span>fetch</span> <span class=\"search-result-import-path\">realtime-exchange-rates/src/app/helpers/fetch.js</span>",
+    "<span>fetch</span> <span class=\"search-result-import-path\">cod-example/src/app/helpers/fetch.js</span>",
     "function"
   ],
   [
@@ -492,60 +402,6 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/app/button/index.js",
-    "file/src/app/button/index.js.html",
-    "src/app/button/index.js",
-    "file"
-  ],
-  [
-    "src/app/button/index.js~button#init",
-    "class/src/app/button/index.js~Button.html#instance-method-init",
-    "src/app/button/index.js~Button#init",
-    "method"
-  ],
-  [
-    "src/app/footer/index.js",
-    "file/src/app/footer/index.js.html",
-    "src/app/footer/index.js",
-    "file"
-  ],
-  [
-    "src/app/footer/index.js~footer#init",
-    "class/src/app/footer/index.js~Footer.html#instance-method-init",
-    "src/app/footer/index.js~Footer#init",
-    "method"
-  ],
-  [
-    "src/app/header/index.js",
-    "file/src/app/header/index.js.html",
-    "src/app/header/index.js",
-    "file"
-  ],
-  [
-    "src/app/header/index.js~header#init",
-    "class/src/app/header/index.js~Header.html#instance-method-init",
-    "src/app/header/index.js~Header#init",
-    "method"
-  ],
-  [
-    "src/app/helpers/angularish.js",
-    "file/src/app/helpers/angularish.js.html",
-    "src/app/helpers/angularish.js",
-    "file"
-  ],
-  [
-    "src/app/helpers/angularishview.js",
-    "file/src/app/helpers/angularishview.js.html",
-    "src/app/helpers/angularishview.js",
-    "file"
-  ],
-  [
-    "src/app/helpers/angularishview.js~angularishview#onupdate",
-    "class/src/app/helpers/angularishview.js~AngularishView.html#instance-method-onUpdate",
-    "src/app/helpers/angularishview.js~AngularishView#onUpdate",
-    "method"
-  ],
-  [
     "src/app/helpers/fetch.js",
     "file/src/app/helpers/fetch.js.html",
     "src/app/helpers/fetch.js",
@@ -598,6 +454,24 @@ window.esdocSearchIndex = [
     "class/src/app/helpers/jsonview.js~JsonView.html#instance-member-viewName",
     "src/app/helpers/jsonview.js~JsonView#viewName",
     "member"
+  ],
+  [
+    "src/app/helpers/noopview.js",
+    "file/src/app/helpers/noopview.js.html",
+    "src/app/helpers/noopview.js",
+    "file"
+  ],
+  [
+    "src/app/helpers/noopview.js~noopview#init",
+    "class/src/app/helpers/noopview.js~NoopView.html#instance-method-init",
+    "src/app/helpers/noopview.js~NoopView#init",
+    "method"
+  ],
+  [
+    "src/app/helpers/noopview.js~noopview#onupdate",
+    "class/src/app/helpers/noopview.js~NoopView.html#instance-method-onUpdate",
+    "src/app/helpers/noopview.js~NoopView#onUpdate",
+    "method"
   ],
   [
     "src/app/helpers/observer.js",
@@ -696,10 +570,40 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/app/main/controller.js",
+    "file/src/app/main/controller.js.html",
+    "src/app/main/controller.js",
+    "file"
+  ],
+  [
+    "src/app/main/controller.js~maincontroller#init",
+    "class/src/app/main/controller.js~MainController.html#instance-method-init",
+    "src/app/main/controller.js~MainController#init",
+    "method"
+  ],
+  [
+    "src/app/main/controller.js~maincontroller#onfirstload",
+    "class/src/app/main/controller.js~MainController.html#instance-method-onFirstLoad",
+    "src/app/main/controller.js~MainController#onFirstLoad",
+    "method"
+  ],
+  [
+    "src/app/main/controller.js~maincontroller#onitemclick",
+    "class/src/app/main/controller.js~MainController.html#instance-method-onItemClick",
+    "src/app/main/controller.js~MainController#onItemClick",
+    "method"
+  ],
+  [
     "src/app/main/index.js",
     "file/src/app/main/index.js.html",
     "src/app/main/index.js",
     "file"
+  ],
+  [
+    "src/app/main/index.js~main#controller",
+    "class/src/app/main/index.js~Main.html#instance-member-controller",
+    "src/app/main/index.js~Main#controller",
+    "member"
   ],
   [
     "src/app/main/index.js~main#init",
@@ -708,496 +612,124 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/app/providers/index.js",
-    "file/src/app/providers/index.js.html",
-    "src/app/providers/index.js",
+    "src/app/main/index.js~main#store",
+    "class/src/app/main/index.js~Main.html#instance-member-store",
+    "src/app/main/index.js~Main#store",
+    "member"
+  ],
+  [
+    "src/app/main/index.js~main#view",
+    "class/src/app/main/index.js~Main.html#instance-member-view",
+    "src/app/main/index.js~Main#view",
+    "member"
+  ],
+  [
+    "src/app/main/index.js~main#viewmodel",
+    "class/src/app/main/index.js~Main.html#instance-member-viewmodel",
+    "src/app/main/index.js~Main#viewmodel",
+    "member"
+  ],
+  [
+    "src/app/main/store.js",
+    "file/src/app/main/store.js.html",
+    "src/app/main/store.js",
     "file"
   ],
   [
-    "src/app/providers/index.js~providers#init",
-    "class/src/app/providers/index.js~Providers.html#instance-method-init",
-    "src/app/providers/index.js~Providers#init",
+    "src/app/main/store.js~mainstore#init",
+    "class/src/app/main/store.js~MainStore.html#instance-method-init",
+    "src/app/main/store.js~MainStore#init",
     "method"
   ],
   [
-    "src/app/providers/index.js~providers#store",
-    "class/src/app/providers/index.js~Providers.html#instance-member-store",
-    "src/app/providers/index.js~Providers#store",
-    "member"
+    "src/app/main/store.js~mainstore#onupdate",
+    "class/src/app/main/store.js~MainStore.html#instance-method-onUpdate",
+    "src/app/main/store.js~MainStore#onUpdate",
+    "method"
   ],
   [
-    "src/app/providers/index.js~providers#viewmodel",
-    "class/src/app/providers/index.js~Providers.html#instance-member-viewmodel",
-    "src/app/providers/index.js~Providers#viewmodel",
-    "member"
-  ],
-  [
-    "src/app/providers/store.js",
-    "file/src/app/providers/store.js.html",
-    "src/app/providers/store.js",
+    "src/app/main/view-d3.js",
+    "file/src/app/main/view-d3.js.html",
+    "src/app/main/view-d3.js",
     "file"
   ],
   [
-    "src/app/providers/store.js~providersstore#init",
-    "class/src/app/providers/store.js~ProvidersStore.html#instance-method-init",
-    "src/app/providers/store.js~ProvidersStore#init",
+    "src/app/main/view-d3.js~maind3view#init",
+    "class/src/app/main/view-d3.js~MainD3View.html#instance-method-init",
+    "src/app/main/view-d3.js~MainD3View#init",
     "method"
   ],
   [
-    "src/app/providers/store.js~providersstore#onupdate",
-    "class/src/app/providers/store.js~ProvidersStore.html#instance-method-onUpdate",
-    "src/app/providers/store.js~ProvidersStore#onUpdate",
+    "src/app/main/view-d3.js~maind3view#onitemclick",
+    "class/src/app/main/view-d3.js~MainD3View.html#instance-method-onItemClick",
+    "src/app/main/view-d3.js~MainD3View#onItemClick",
     "method"
   ],
   [
-    "src/app/providers/view.js",
-    "file/src/app/providers/view.js.html",
-    "src/app/providers/view.js",
+    "src/app/main/view-d3.js~maind3view#onupdate",
+    "class/src/app/main/view-d3.js~MainD3View.html#instance-method-onUpdate",
+    "src/app/main/view-d3.js~MainD3View#onUpdate",
+    "method"
+  ],
+  [
+    "src/app/main/view-d3.js~maind3view#stage",
+    "class/src/app/main/view-d3.js~MainD3View.html#instance-member-stage",
+    "src/app/main/view-d3.js~MainD3View#stage",
+    "member"
+  ],
+  [
+    "src/app/main/view-json.js",
+    "file/src/app/main/view-json.js.html",
+    "src/app/main/view-json.js",
     "file"
   ],
   [
-    "src/app/providers/view.js~providersview#init",
-    "class/src/app/providers/view.js~ProvidersView.html#instance-method-init",
-    "src/app/providers/view.js~ProvidersView#init",
+    "src/app/main/view-json.js~mainview#init",
+    "class/src/app/main/view-json.js~MainView.html#instance-method-init",
+    "src/app/main/view-json.js~MainView#init",
     "method"
   ],
   [
-    "src/app/providers/view.js~providersview#viewname",
-    "class/src/app/providers/view.js~ProvidersView.html#instance-member-viewName",
-    "src/app/providers/view.js~ProvidersView#viewName",
+    "src/app/main/view-json.js~mainview#viewname",
+    "class/src/app/main/view-json.js~MainView.html#instance-member-viewName",
+    "src/app/main/view-json.js~MainView#viewName",
     "member"
   ],
   [
-    "src/app/providers/viewmodel.js",
-    "file/src/app/providers/viewmodel.js.html",
-    "src/app/providers/viewmodel.js",
+    "src/app/main/viewmodel.js",
+    "file/src/app/main/viewmodel.js.html",
+    "src/app/main/viewmodel.js",
     "file"
   ],
   [
-    "src/app/providers/viewmodel.js~providersviewmodel#init",
-    "class/src/app/providers/viewmodel.js~ProvidersViewModel.html#instance-method-init",
-    "src/app/providers/viewmodel.js~ProvidersViewModel#init",
-    "method"
-  ],
-  [
-    "src/app/providers/viewmodel.js~providersviewmodel#onupdate",
-    "class/src/app/providers/viewmodel.js~ProvidersViewModel.html#instance-method-onUpdate",
-    "src/app/providers/viewmodel.js~ProvidersViewModel#onUpdate",
-    "method"
-  ],
-  [
-    "src/app/providers/viewmodel.js~providersviewmodel#providers",
-    "class/src/app/providers/viewmodel.js~ProvidersViewModel.html#instance-member-providers",
-    "src/app/providers/viewmodel.js~ProvidersViewModel#providers",
+    "src/app/main/viewmodel.js~mainviewmodel#data",
+    "class/src/app/main/viewmodel.js~MainViewModel.html#instance-member-data",
+    "src/app/main/viewmodel.js~MainViewModel#data",
     "member"
   ],
   [
-    "src/app/providers/viewmodel.js~providersviewmodel#selectedprovider",
-    "class/src/app/providers/viewmodel.js~ProvidersViewModel.html#instance-member-selectedProvider",
-    "src/app/providers/viewmodel.js~ProvidersViewModel#selectedProvider",
+    "src/app/main/viewmodel.js~mainviewmodel#init",
+    "class/src/app/main/viewmodel.js~MainViewModel.html#instance-method-init",
+    "src/app/main/viewmodel.js~MainViewModel#init",
+    "method"
+  ],
+  [
+    "src/app/main/viewmodel.js~mainviewmodel#onitemselected",
+    "class/src/app/main/viewmodel.js~MainViewModel.html#instance-method-onItemSelected",
+    "src/app/main/viewmodel.js~MainViewModel#onItemSelected",
+    "method"
+  ],
+  [
+    "src/app/main/viewmodel.js~mainviewmodel#onupdate",
+    "class/src/app/main/viewmodel.js~MainViewModel.html#instance-method-onUpdate",
+    "src/app/main/viewmodel.js~MainViewModel#onUpdate",
+    "method"
+  ],
+  [
+    "src/app/main/viewmodel.js~mainviewmodel#selecteditemid",
+    "class/src/app/main/viewmodel.js~MainViewModel.html#instance-member-selectedItemId",
+    "src/app/main/viewmodel.js~MainViewModel#selectedItemId",
     "member"
-  ],
-  [
-    "src/app/rates/index.js",
-    "file/src/app/rates/index.js.html",
-    "src/app/rates/index.js",
-    "file"
-  ],
-  [
-    "src/app/rates/index.js~rates#init",
-    "class/src/app/rates/index.js~Rates.html#instance-method-init",
-    "src/app/rates/index.js~Rates#init",
-    "method"
-  ],
-  [
-    "src/app/rates/index.js~rates#store",
-    "class/src/app/rates/index.js~Rates.html#instance-member-store",
-    "src/app/rates/index.js~Rates#store",
-    "member"
-  ],
-  [
-    "src/app/rates/index.js~rates#view",
-    "class/src/app/rates/index.js~Rates.html#instance-member-view",
-    "src/app/rates/index.js~Rates#view",
-    "member"
-  ],
-  [
-    "src/app/rates/index.js~rates#viewmodel",
-    "class/src/app/rates/index.js~Rates.html#instance-member-viewmodel",
-    "src/app/rates/index.js~Rates#viewmodel",
-    "member"
-  ],
-  [
-    "src/app/rates/store.js",
-    "file/src/app/rates/store.js.html",
-    "src/app/rates/store.js",
-    "file"
-  ],
-  [
-    "src/app/rates/store.js~ratesstore#failattempts",
-    "class/src/app/rates/store.js~RatesStore.html#instance-member-failAttempts",
-    "src/app/rates/store.js~RatesStore#failAttempts",
-    "member"
-  ],
-  [
-    "src/app/rates/store.js~ratesstore#init",
-    "class/src/app/rates/store.js~RatesStore.html#instance-method-init",
-    "src/app/rates/store.js~RatesStore#init",
-    "method"
-  ],
-  [
-    "src/app/rates/store.js~ratesstore#onproviderselected",
-    "class/src/app/rates/store.js~RatesStore.html#instance-method-onProviderSelected",
-    "src/app/rates/store.js~RatesStore#onProviderSelected",
-    "method"
-  ],
-  [
-    "src/app/rates/store.js~ratesstore#onratesrefreshrequired",
-    "class/src/app/rates/store.js~RatesStore.html#instance-method-onRatesRefreshRequired",
-    "src/app/rates/store.js~RatesStore#onRatesRefreshRequired",
-    "method"
-  ],
-  [
-    "src/app/rates/store.js~ratesstore#selectedprovider",
-    "class/src/app/rates/store.js~RatesStore.html#instance-member-selectedProvider",
-    "src/app/rates/store.js~RatesStore#selectedProvider",
-    "member"
-  ],
-  [
-    "src/app/rates/view.js",
-    "file/src/app/rates/view.js.html",
-    "src/app/rates/view.js",
-    "file"
-  ],
-  [
-    "src/app/rates/view.js~ratesview#init",
-    "class/src/app/rates/view.js~RatesView.html#instance-method-init",
-    "src/app/rates/view.js~RatesView#init",
-    "method"
-  ],
-  [
-    "src/app/rates/view.js~ratesview#onremoveclick",
-    "class/src/app/rates/view.js~RatesView.html#instance-method-onRemoveClick",
-    "src/app/rates/view.js~RatesView#onRemoveClick",
-    "method"
-  ],
-  [
-    "src/app/rates/view.js~ratesview#template",
-    "class/src/app/rates/view.js~RatesView.html#instance-member-template",
-    "src/app/rates/view.js~RatesView#template",
-    "member"
-  ],
-  [
-    "src/app/rates/view.js~ratesview#viewname",
-    "class/src/app/rates/view.js~RatesView.html#instance-member-viewName",
-    "src/app/rates/view.js~RatesView#viewName",
-    "member"
-  ],
-  [
-    "src/app/rates/viewmodel.js",
-    "file/src/app/rates/viewmodel.js.html",
-    "src/app/rates/viewmodel.js",
-    "file"
-  ],
-  [
-    "src/app/rates/viewmodel.js~ratesviewmodel#init",
-    "class/src/app/rates/viewmodel.js~RatesViewModel.html#instance-method-init",
-    "src/app/rates/viewmodel.js~RatesViewModel#init",
-    "method"
-  ],
-  [
-    "src/app/rates/viewmodel.js~ratesviewmodel#lastresponse",
-    "class/src/app/rates/viewmodel.js~RatesViewModel.html#instance-member-lastResponse",
-    "src/app/rates/viewmodel.js~RatesViewModel#lastResponse",
-    "member"
-  ],
-  [
-    "src/app/rates/viewmodel.js~ratesviewmodel#onfiltersymbolsupdated",
-    "class/src/app/rates/viewmodel.js~RatesViewModel.html#instance-method-onFilterSymbolsUpdated",
-    "src/app/rates/viewmodel.js~RatesViewModel#onFilterSymbolsUpdated",
-    "method"
-  ],
-  [
-    "src/app/rates/viewmodel.js~ratesviewmodel#onupdate",
-    "class/src/app/rates/viewmodel.js~RatesViewModel.html#instance-method-onUpdate",
-    "src/app/rates/viewmodel.js~RatesViewModel#onUpdate",
-    "method"
-  ],
-  [
-    "src/app/settings/index.js",
-    "file/src/app/settings/index.js.html",
-    "src/app/settings/index.js",
-    "file"
-  ],
-  [
-    "src/app/settings/index.js~settings#init",
-    "class/src/app/settings/index.js~Settings.html#instance-method-init",
-    "src/app/settings/index.js~Settings#init",
-    "method"
-  ],
-  [
-    "src/app/settings/index.js~settings#store",
-    "class/src/app/settings/index.js~Settings.html#instance-member-store",
-    "src/app/settings/index.js~Settings#store",
-    "member"
-  ],
-  [
-    "src/app/settings/index.js~settings#view",
-    "class/src/app/settings/index.js~Settings.html#instance-member-view",
-    "src/app/settings/index.js~Settings#view",
-    "member"
-  ],
-  [
-    "src/app/settings/index.js~settings#viewmodel",
-    "class/src/app/settings/index.js~Settings.html#instance-member-viewmodel",
-    "src/app/settings/index.js~Settings#viewmodel",
-    "member"
-  ],
-  [
-    "src/app/settings/store.js",
-    "file/src/app/settings/store.js.html",
-    "src/app/settings/store.js",
-    "file"
-  ],
-  [
-    "src/app/settings/store.js~settingsstore#init",
-    "class/src/app/settings/store.js~SettingsStore.html#instance-method-init",
-    "src/app/settings/store.js~SettingsStore#init",
-    "method"
-  ],
-  [
-    "src/app/settings/store.js~settingsstore#onupdate",
-    "class/src/app/settings/store.js~SettingsStore.html#instance-method-onUpdate",
-    "src/app/settings/store.js~SettingsStore#onUpdate",
-    "method"
-  ],
-  [
-    "src/app/settings/view.js",
-    "file/src/app/settings/view.js.html",
-    "src/app/settings/view.js",
-    "file"
-  ],
-  [
-    "src/app/settings/view.js~settingsview#init",
-    "class/src/app/settings/view.js~SettingsView.html#instance-method-init",
-    "src/app/settings/view.js~SettingsView#init",
-    "method"
-  ],
-  [
-    "src/app/settings/view.js~settingsview#onrefreshratechange",
-    "class/src/app/settings/view.js~SettingsView.html#instance-method-onRefreshRateChange",
-    "src/app/settings/view.js~SettingsView#onRefreshRateChange",
-    "method"
-  ],
-  [
-    "src/app/settings/view.js~settingsview#template",
-    "class/src/app/settings/view.js~SettingsView.html#instance-member-template",
-    "src/app/settings/view.js~SettingsView#template",
-    "member"
-  ],
-  [
-    "src/app/settings/view.js~settingsview#viewname",
-    "class/src/app/settings/view.js~SettingsView.html#instance-member-viewName",
-    "src/app/settings/view.js~SettingsView#viewName",
-    "member"
-  ],
-  [
-    "src/app/settings/viewmodel.js",
-    "file/src/app/settings/viewmodel.js.html",
-    "src/app/settings/viewmodel.js",
-    "file"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#init",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-method-init",
-    "src/app/settings/viewmodel.js~SettingsViewModel#init",
-    "method"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#intervalid",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-member-intervalId",
-    "src/app/settings/viewmodel.js~SettingsViewModel#intervalId",
-    "member"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#onproviderselected",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-method-onProviderSelected",
-    "src/app/settings/viewmodel.js~SettingsViewModel#onProviderSelected",
-    "method"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#onrefreshratechanged",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-method-onRefreshRateChanged",
-    "src/app/settings/viewmodel.js~SettingsViewModel#onRefreshRateChanged",
-    "method"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#provider",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-member-provider",
-    "src/app/settings/viewmodel.js~SettingsViewModel#provider",
-    "member"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#refreshrate",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-member-refreshRate",
-    "src/app/settings/viewmodel.js~SettingsViewModel#refreshRate",
-    "member"
-  ],
-  [
-    "src/app/settings/viewmodel.js~settingsviewmodel#updaterate",
-    "class/src/app/settings/viewmodel.js~SettingsViewModel.html#instance-method-updateRate",
-    "src/app/settings/viewmodel.js~SettingsViewModel#updateRate",
-    "method"
-  ],
-  [
-    "src/app/symbols/index.js",
-    "file/src/app/symbols/index.js.html",
-    "src/app/symbols/index.js",
-    "file"
-  ],
-  [
-    "src/app/symbols/index.js~symbols#init",
-    "class/src/app/symbols/index.js~Symbols.html#instance-method-init",
-    "src/app/symbols/index.js~Symbols#init",
-    "method"
-  ],
-  [
-    "src/app/symbols/index.js~symbols#store",
-    "class/src/app/symbols/index.js~Symbols.html#instance-member-store",
-    "src/app/symbols/index.js~Symbols#store",
-    "member"
-  ],
-  [
-    "src/app/symbols/index.js~symbols#view",
-    "class/src/app/symbols/index.js~Symbols.html#instance-member-view",
-    "src/app/symbols/index.js~Symbols#view",
-    "member"
-  ],
-  [
-    "src/app/symbols/index.js~symbols#viewmodel",
-    "class/src/app/symbols/index.js~Symbols.html#instance-member-viewmodel",
-    "src/app/symbols/index.js~Symbols#viewmodel",
-    "member"
-  ],
-  [
-    "src/app/symbols/store.js",
-    "file/src/app/symbols/store.js.html",
-    "src/app/symbols/store.js",
-    "file"
-  ],
-  [
-    "src/app/symbols/store.js~symbolsstore#init",
-    "class/src/app/symbols/store.js~SymbolsStore.html#instance-method-init",
-    "src/app/symbols/store.js~SymbolsStore#init",
-    "method"
-  ],
-  [
-    "src/app/symbols/store.js~symbolsstore#onupdate",
-    "class/src/app/symbols/store.js~SymbolsStore.html#instance-method-onUpdate",
-    "src/app/symbols/store.js~SymbolsStore#onUpdate",
-    "method"
-  ],
-  [
-    "src/app/symbols/view.js",
-    "file/src/app/symbols/view.js.html",
-    "src/app/symbols/view.js",
-    "file"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#init",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-method-init",
-    "src/app/symbols/view.js~SymbolsView#init",
-    "method"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#onaddclick",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-method-onAddClick",
-    "src/app/symbols/view.js~SymbolsView#onAddClick",
-    "method"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#onbasesymbolchange",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-method-onBaseSymbolChange",
-    "src/app/symbols/view.js~SymbolsView#onBaseSymbolChange",
-    "method"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#onsymboladdclick",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-method-onSymbolAddClick",
-    "src/app/symbols/view.js~SymbolsView#onSymbolAddClick",
-    "method"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#ontargetsymbolchange",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-method-onTargetSymbolChange",
-    "src/app/symbols/view.js~SymbolsView#onTargetSymbolChange",
-    "method"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#template",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-member-template",
-    "src/app/symbols/view.js~SymbolsView#template",
-    "member"
-  ],
-  [
-    "src/app/symbols/view.js~symbolsview#viewname",
-    "class/src/app/symbols/view.js~SymbolsView.html#instance-member-viewName",
-    "src/app/symbols/view.js~SymbolsView#viewName",
-    "member"
-  ],
-  [
-    "src/app/symbols/viewmodel.js",
-    "file/src/app/symbols/viewmodel.js.html",
-    "src/app/symbols/viewmodel.js",
-    "file"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#init",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-init",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#init",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#onbasesymbolchange",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-onBaseSymbolChange",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#onBaseSymbolChange",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#onfiltersymboladded",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-onFilterSymbolAdded",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#onFilterSymbolAdded",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#onfiltersymbolremoved",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-onFilterSymbolRemoved",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#onFilterSymbolRemoved",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#onproviderselected",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-onProviderSelected",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#onProviderSelected",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#onsymboladd",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-onSymbolAdd",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#onSymbolAdd",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#ontargetsymbolchange",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-onTargetSymbolChange",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#onTargetSymbolChange",
-    "method"
-  ],
-  [
-    "src/app/symbols/viewmodel.js~symbolsviewmodel#update",
-    "class/src/app/symbols/viewmodel.js~SymbolsViewModel.html#instance-method-update",
-    "src/app/symbols/viewmodel.js~SymbolsViewModel#update",
-    "method"
   ],
   [
     "src/bundle.js",

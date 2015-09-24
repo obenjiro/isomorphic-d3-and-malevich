@@ -1,5 +1,3 @@
-import './view.css'
-
 import d3 from 'd3';
 import Observer from './../helpers/observer.js'
 

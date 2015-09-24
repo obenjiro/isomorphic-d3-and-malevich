@@ -1,5 +1,5 @@
 {
-  "name": "realtime-exchange-rates",
+  "name": "cod-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,14 @@
     "dev": "nodemon server",
     "prod": "NODE_ENV=production nodemon server",
     "watch": "webpack --config webpack.development.config.js --watch",
+    "prebuild": "npm run lint",
     "build": "webpack --config webpack.production.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "doc": "esdoc -c esdoc.frontend.json",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "loadtest": "loadtest",
+    "prekss": "npm run build",
+    "kss": "kss-node --config kss-config.json"
   },
   "engines": {
     "iojs": ">=1.0",
@@ -20,7 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.13.3",
-    "esdoc": "^0.2.4",
+    "d3": "^3.5.6",
     "express": "^4.13.3",
     "express-error": "0.0.7",
     "morgan": "^1.6.1",
@@ -37,6 +41,9 @@
     "file-loader": "^0.8.4",
     "handlebars": "^3.0.3",
     "html-minify-loader": "^1.0.0",
+    "kss": "^2.1.0",
+    "esdoc": "^0.2.4",
+    "loadtest": "^1.2.14",
     "postcss-loader": "^0.6.0",
     "style-loader": "^0.12.3",
     "webpack": "^1.12.0"

@@ -8,7 +8,7 @@ export default class MainViewModel extends Observer {
     onUpdate(data) {
         this.fire('update', data.map((item) => {
             return { id: item, selected: item === this.selectedItemId }
-        }))
+        }));
         this.data = data;
     }
     onItemSelected(id) {

@@ -2,5 +2,5 @@
   "source": "./public/src",
   "destination": "./esdoc",
   "index": "./esdoc/README.md",
-  "title": "Realtime Exchange Rates"
+  "title": "COD.js example"
 }

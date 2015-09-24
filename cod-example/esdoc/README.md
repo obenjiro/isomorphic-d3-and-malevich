@@ -1,4 +1,4 @@
-# Realtime Exchange Rates
+# COD.js example
 
 Welcome! :)
 
@@ -12,5 +12,15 @@ npm run prod
 then try to visit
 ```
 http://localhost:8888
-http://localhost:8888/?provider=ebank
+```
+
+### To develop
+
+Run in first terminal window ( for npm live reload )
+```sh
+npm run develop
+```
+And run in the second ( for webpack auto ES2015 rebuild )
+```sh
+npm run watch
 ```

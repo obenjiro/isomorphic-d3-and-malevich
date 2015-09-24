@@ -10,7 +10,7 @@ handlebars.registerHelper('toLowerCase', function(str) {
 });
 
 program
-    .version(config.version)
+    .version(config.version);
 
 program
     .command('gen <name>')
