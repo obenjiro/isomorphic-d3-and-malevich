@@ -16,7 +16,7 @@ class App {
 
     var app = new App();
     if (__DEV__) {
-        // we need to have app as global variable for debugging purposes
+        // we need to have app as global variable for debug
         window.app = app;
     }
     document.addEventListener('DOMContentLoaded', app.init.bind(app), false);
